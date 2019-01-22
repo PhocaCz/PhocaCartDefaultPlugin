@@ -22,33 +22,32 @@ class plgPCVDefault extends JPlugin
 		$this->loadLanguage(); 
 	}
 	
-	public function onCategoriesBeforeHeader($context, &$categories, &$params) {
-		//$output = '';
-		//return $output;
+	public function PCVonCategoriesBeforeHeader($context, &$categories, &$params) {
+		// return "test";
 	}
 	
-	public function onCategoryBeforeHeader($context, &$items, &$params) {
+	public function PCVonCategoryBeforeHeader($context, &$items, &$params) {
 	}
 	
-	public function onItemsBeforeHeader($context, &$items, &$params) {
+	public function PCVonItemsBeforeHeader($context, &$items, &$params) {
 	}
 	
-	public function onCategoryItemAfterAddToCart($context, &$item, &$params) {
+	public function PCVonCategoryItemAfterAddToCart($context, &$item, &$params) {
 	}
 	
-	public function onItemsItemAfterAddToCart($context, &$item, &$params) {
+	public function PCVonItemsItemAfterAddToCart($context, &$item, &$params) {
 	}
 	
-	public function onItemBeforeHeader($context, &$item, &$params) {
+	public function PCVonItemBeforeHeader($context, &$item, &$params) {
 	}
 	
-	public function onItemAfterAddToCart($context, &$item, &$params) {
+	public function PCVonItemAfterAddToCart($context, &$item, &$params) {
 	}
 	
-	public function onItemBeforeEndPricePanel($context, &$item, &$params) {
+	public function PCVonItemBeforeEndPricePanel($context, &$item, &$params) {
 	}
 	
-	public function onItemInsideTabPanel($context, &$item, &$params) {
+	public function PCVonItemInsideTabPanel($context, &$item, &$params) {
 		
 		$tab 			= array();
 		//$tab['title']	= JText::_('Test');
@@ -58,22 +57,22 @@ class plgPCVDefault extends JPlugin
 		return $tab;
 	}
 	
-	public function onCheckoutAfterCart($context, $access, &$params) {
+	public function PCVonCheckoutAfterCart($context, $access, &$params) {
 	}
 	
-	public function onCheckoutAfterLogin($context, $access, &$params) {
+	public function PCVonCheckoutAfterLogin($context, $access, &$params) {
 	}
 	
-	public function onCheckoutAfterAddress($context, $access, &$params) {
+	public function PCVonCheckoutAfterAddress($context, $access, &$params) {
 	}
 	
-	public function onCheckoutAfterShipping($context, $access, &$params) {
+	public function PCVonCheckoutAfterShipping($context, $access, &$params) {
 	}
 	
-	public function onCheckoutAfterPayment($context, $access, &$params) {
+	public function PCVonCheckoutAfterPayment($context, $access, &$params) {
 	}
 	
-	public function onCheckoutAfterConfirm($context, $access, &$params) {
+	public function PCVonCheckoutAfterConfirm($context, $access, &$params) {
 	}
 }
 ?>

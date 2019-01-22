@@ -1,42 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="plugin" group="pcv" method="upgrade" version="3">
 	<name>plg_pcv_default</name>
-	<creationDate>17/07/2017</creationDate>
 	<author>Jan Pavelka (www.phoca.cz)</author>
+	<creationDate>22/01/2019</creationDate>
 	<authorEmail></authorEmail>
 	<authorUrl>www.phoca.cz</authorUrl>
 	<copyright>Jan Pavelka</copyright>
 	<license>GNU/GPL</license>
-	<version>3.0.0</version>
+	<version>3.1.6</version>
+	<description>PLG_PCV_DEFAULT_XML_DESCRIPTION</description>
+	<extensionName>Phoca Cart View Default Plugin</extensionName>
+	<projectName>PhocaCartDefaultPlugin</projectName>
+	<extensionDescription>Phoca Cart View - Default Plugin - plugin view method for Phoca Cart component</extensionDescription>
 
-	
-	<description>PLG_PCV_DEFAULT_DESCRIPTION</description>
-
-	
 	<files>
+		<folder>helpers</folder>
 		<filename plugin="default">default.php</filename>
 		<filename plugin="default">default.xml</filename>
 		<filename plugin="default">index.html</filename>
-		<folder>helpers</folder>
+		<filename plugin="default">manifest.xml</filename>
 	</files>
 
-	
 	<languages>
 		<language tag="en-GB">language/en-GB/en-GB.plg_pcv_default.ini</language>
 		<language tag="en-GB">language/en-GB/en-GB.plg_pcv_default.sys.ini</language>
 	</languages>
+
 	<administration>
 		<languages>
 			<language tag="en-GB">language/en-GB/en-GB.plg_pcv_default.ini</language>
 			<language tag="en-GB">language/en-GB/en-GB.plg_pcv_default.sys.ini</language>
 		</languages>
 	</administration>
-	
-	
-
-<form>
+	<form>
 	<fields name="params" addfieldpath="/administrator/components/com_phocacart/models/fields">
-	<fieldset name="shipping" addpath="/administrator/components/com_phocacart/models/fields" group="pcv" >
+	<fieldset name="shipping" addpath="/administrator/components/com_phocacart/models/fields" group="pcv">
 
 	
 
@@ -45,4 +43,8 @@
 	</fields>
 
 </form>
+
+	<updateservers>
+		<server type="extension" name="Phoca Cart View Default Plugin"><![CDATA[https://raw.githubusercontent.com/PhocaCz/PhocaCartDefaultPlugin/master/manifest.xml]]></server>
+	</updateservers>
 </extension>
