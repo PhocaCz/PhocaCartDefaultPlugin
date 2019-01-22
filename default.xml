@@ -8,7 +8,7 @@
 	<copyright>Jan Pavelka</copyright>
 	<license>GNU/GPL</license>
 	<version>3.1.6</version>
-	<description>PLG_PCV_DEFAULT_XML_DESCRIPTION</description>
+	<description>PLG_PCV_DEFAULT_DESCRIPTION</description>
 	<extensionName>Phoca Cart View Default Plugin</extensionName>
 	<projectName>PhocaCartDefaultPlugin</projectName>
 	<extensionDescription>Phoca Cart View - Default Plugin - plugin view method for Phoca Cart component</extensionDescription>
