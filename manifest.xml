@@ -1,6 +1,6 @@
 <updates>
 	<update>
-		<name><![CDATA[ Phoca Cart View Default Plugin ]]></name>
+		<name><![CDATA[ Phoca Cart View Default Plugin XXX ]]></name>
 		<description><![CDATA[ Phoca Cart View - Default Plugin - plugin view method for Phoca Cart component ]]></description>
 		<element>plg_pcv_default</element>
 		<folder>pcv</folder>
