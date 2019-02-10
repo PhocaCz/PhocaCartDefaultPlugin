@@ -2,23 +2,19 @@
 <extension type="plugin" group="pcv" method="upgrade" version="3">
 	<name>plg_pcv_default</name>
 	<author>Jan Pavelka (www.phoca.cz)</author>
-	<creationDate>22/01/2019</creationDate>
+	<creationDate>10/02/2019</creationDate>
 	<authorEmail></authorEmail>
-	<authorUrl>www.phoca.cz</authorUrl>
+	<authorUrl>https://www.phoca.cz</authorUrl>
 	<copyright>Jan Pavelka</copyright>
 	<license>GNU/GPL</license>
-	<version>3.1.6</version>
+	<version>3.1.7</version>
 	<description>PLG_PCV_DEFAULT_DESCRIPTION</description>
-	<extensionName>Phoca Cart View Default Plugin</extensionName>
 	<projectName>PhocaCartDefaultPlugin</projectName>
-	<extensionDescription>Phoca Cart View - Default Plugin - plugin view method for Phoca Cart component</extensionDescription>
 
 	<files>
 		<folder>helpers</folder>
 		<filename plugin="default">default.php</filename>
-		<filename plugin="default">default.xml</filename>
 		<filename plugin="default">index.html</filename>
-		<filename plugin="default">manifest.xml</filename>
 	</files>
 
 	<languages>
@@ -43,8 +39,9 @@
 	</fields>
 
 </form>
+	
 
 	<updateservers>
-		<server type="extension" name="Phoca Cart View Default Plugin"><![CDATA[https://raw.githubusercontent.com/PhocaCz/PhocaCartDefaultPlugin/master/manifest.xml]]></server>
+		<server type="extension" name="PLG_PCV_DEFAULT" priority="1"><![CDATA[https://raw.githubusercontent.com/PhocaCz/PhocaCartDefaultPlugin/master/manifest.xml]]></server>
 	</updateservers>
 </extension>
