@@ -4,7 +4,7 @@
 	"copyright": "Jan Pavelka",
 	"license": "GNU/GPL",
 	"projectName": "PhocaCartDefaultPlugin",
-	"extensionName": "Phoca Cart Default Plugin",
+	"extensionName": "Phoca Cart View Default Plugin",
 	"projectInitials" : "PC",				  
 	"description": "Phoca Cart View - Default Plugin - plugin view method for Phoca Cart component. This plugin is included in core Phoca Cart package.",
 	"projectUrl": "https://www.phoca.cz/phocacart-extensions/2-plugins/31-view-default-plugin",

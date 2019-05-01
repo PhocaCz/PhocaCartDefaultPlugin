@@ -57,28 +57,28 @@ class plgPCVDefault extends JPlugin
 		return $tab;
 	}
 
-	public function PCVonCheckoutAfterCart($context, $access, &$params) {
+	public function PCVonCheckoutAfterCart($context, $access, &$params, $total) {
 	}
 
-	public function PCVonCheckoutAfterLogin($context, $access, &$params) {
+	public function PCVonCheckoutAfterLogin($context, $access, &$params, $total) {
 	}
 
-	public function PCVonCheckoutAfterAddress($context, $access, &$params) {
+	public function PCVonCheckoutAfterAddress($context, $access, &$params, $total) {
 	}
 
-	public function PCVonCheckoutAfterShipping($context, $access, &$params) {
+	public function PCVonCheckoutAfterShipping($context, $access, &$params, $total) {
 	}
 
-	public function PCVonCheckoutAfterPayment($context, $access, &$params) {
+	public function PCVonCheckoutAfterPayment($context, $access, &$params, $total) {
 	}
 
-	public function PCVonCheckoutAfterConfirm($context, $access, &$params) {
+	public function PCVonCheckoutAfterConfirm($context, $access, &$params, $total) {
 	}
 
-	
+
 	/*
 	public function PCVonPopupAddToCartAfterHeader($context, $product, $products, $total) {
-		
+
 	} */
 
 }

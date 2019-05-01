@@ -2,9 +2,9 @@
 
 
 
-![Phoca Cart Default Plugin](https://github.com/PhocaCz/PhocaCartDefaultPlugin/blob/master/default.png)
+![Phoca Cart View Default Plugin](https://github.com/PhocaCz/PhocaCartDefaultPlugin/blob/master/default.png)
 
-# Phoca Cart Default Plugin
+# Phoca Cart View Default Plugin
 
 
 
@@ -14,7 +14,7 @@ Phoca Cart View - Default Plugin - plugin view method for Phoca Cart component. 
 
 ## Project page
 
-[Phoca Cart Default Plugin](https://www.phoca.cz/phocacart-extensions/2-plugins/31-view-default-plugin)
+[Phoca Cart View Default Plugin](https://www.phoca.cz/phocacart-extensions/2-plugins/31-view-default-plugin)
 
 [Phoca Cart Info Page](https://www.phoca.cz/project/phocacart-joomla-ecommerce)
 
@@ -54,7 +54,7 @@ Phoca Cart View - Default Plugin - plugin view method for Phoca Cart component. 
 
 ## Version
 
-3.1.8
+3.1.9
 
 
 
