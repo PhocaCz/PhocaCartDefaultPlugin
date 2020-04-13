@@ -26,6 +26,8 @@ Phoca Cart View - Default Plugin - plugin view method for Phoca Cart component. 
 
 
 
+
+
 ## Support
 
 [Phoca Forum](https://www.phoca.cz/forum)
@@ -54,7 +56,7 @@ Phoca Cart View - Default Plugin - plugin view method for Phoca Cart component. 
 
 ## Version
 
-3.4.0
+3.5.0
 
 
 
