@@ -2,7 +2,7 @@
 
 
 
-![Phoca Cart View Default Plugin](https://github.com/PhocaCz/PhocaCartDefaultPlugin/blob/master/default.png)
+![Phoca Cart View Default Plugin](https://github.com/PhocaCz/PhocaCartDefaultPlugin/blob/master/default.png?raw=true)
 
 # Phoca Cart View Default Plugin
 
@@ -56,7 +56,7 @@ Phoca Cart View - Default Plugin - plugin view method for Phoca Cart component. 
 
 ## Version
 
-3.5.4
+3.5.5
 
 
 
