@@ -50,8 +50,8 @@ class plgPCVDefault extends JPlugin
 	public function PCVonItemInsideTabPanel($context, &$item, &$params) {
 
 		$tab 			= array();
-		//$tab['title']	= JText::_('Test');
-		//$tab['alias']	= 'test';
+		//$tab['title']	= JText::_('');
+		//$tab['alias']	= '';
 		//$tab['content']	= JText::_('This is the content of the tab');
 
 		return $tab;
