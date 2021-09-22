@@ -50,11 +50,14 @@ class plgPCVDefault extends JPlugin
 	public function PCVonItemInsideTabPanel($context, &$item, &$params) {
 
 		$tab 			= array();
-		//$tab['title']	= JText::_('');
-		//$tab['alias']	= '';
-		//$tab['content']	= JText::_('This is the content of the tab');
-
-		return $tab;
+		
+		// Example
+		/*$tab['title']	= JText::_('Title');
+		$tab['alias']	= 'title';
+		if (isset($item[0]->features)) {
+			$tab['content']	= JHTML::_('content.prepare', $item[0]->features);
+		}
+		return $tab;*/
 	}
 
 	public function PCVonCheckoutAfterCart($context, $access, &$params, $total) {
