@@ -8,6 +8,8 @@
  */
 
 defined('_JEXEC') or die;
+use Joomla\CMS\Plugin\CMSPlugin;
+
 jimport( 'joomla.plugin.plugin' );
 jimport( 'joomla.filesystem.file');
 jimport( 'joomla.html.parameter' );
@@ -15,39 +17,39 @@ jimport( 'joomla.html.parameter' );
 
 JLoader::registerPrefix('Phocacart', JPATH_ADMINISTRATOR . '/components/com_phocacart/libraries/phocacart');
 
-class plgPCVDefault extends JPlugin
+class plgPCVDefault extends CMSPlugin
 {
 	function __construct(& $subject, $config) {
 		parent :: __construct($subject, $config);
 		$this->loadLanguage();
 	}
 
-	public function PCVonCategoriesBeforeHeader($context, &$categories, &$params) {
+	public function onPCVonCategoriesBeforeHeader($context, &$categories, &$params) {
 		// return "test";
 	}
 
-	public function PCVonCategoryBeforeHeader($context, &$items, &$params) {
+	public function onPCVonCategoryBeforeHeader($context, &$items, &$params) {
 	}
 
-	public function PCVonItemsBeforeHeader($context, &$items, &$params) {
+	public function onPCVonItemsBeforeHeader($context, &$items, &$params) {
 	}
 
-	public function PCVonCategoryItemAfterAddToCart($context, &$item, &$params) {
+	public function onPCVonCategoryItemAfterAddToCart($context, &$item, &$params) {
 	}
 
-	public function PCVonItemsItemAfterAddToCart($context, &$item, &$params) {
+	public function onPCVonItemsItemAfterAddToCart($context, &$item, &$params) {
 	}
 
-	public function PCVonItemBeforeHeader($context, &$item, &$params) {
+	public function onPCVonItemBeforeHeader($context, &$item, &$params) {
 	}
 
-	public function PCVonItemAfterAddToCart($context, &$item, &$params) {
+	public function onPCVonItemAfterAddToCart($context, &$item, &$params) {
 	}
 
-	public function PCVonItemBeforeEndPricePanel($context, &$item, &$params) {
+	public function onPCVonItemBeforeEndPricePanel($context, &$item, &$params) {
 	}
 
-	public function PCVonItemInsideTabPanel($context, &$item, &$params) {
+	public function onPCVonItemInsideTabPanel($context, &$item, &$params) {
 
 		$tab 			= array();
 		
@@ -60,27 +62,27 @@ class plgPCVDefault extends JPlugin
 		return $tab;*/
 	}
 
-	public function PCVonCheckoutAfterCart($context, $access, &$params, $total) {
+	public function onPCVonCheckoutAfterCart($context, $access, &$params, $total) {
 	}
 
-	public function PCVonCheckoutAfterLogin($context, $access, &$params, $total) {
+	public function onPCVonCheckoutAfterLogin($context, $access, &$params, $total) {
 	}
 
-	public function PCVonCheckoutAfterAddress($context, $access, &$params, $total) {
+	public function onPCVonCheckoutAfterAddress($context, $access, &$params, $total) {
 	}
 
-	public function PCVonCheckoutAfterShipping($context, $access, &$params, $total) {
+	public function onPCVonCheckoutAfterShipping($context, $access, &$params, $total) {
 	}
 
-	public function PCVonCheckoutAfterPayment($context, $access, &$params, $total) {
+	public function onPCVonCheckoutAfterPayment($context, $access, &$params, $total) {
 	}
 
-	public function PCVonCheckoutAfterConfirm($context, $access, &$params, $total) {
+	public function onPCVonCheckoutAfterConfirm($context, $access, &$params, $total) {
 	}
 
 
 	/*
-	public function PCVonPopupAddToCartAfterHeader($context, $product, $products, $total) {
+	public function onPCVonPopupAddToCartAfterHeader($context, $product, $products, $total) {
 
 	} */
 
