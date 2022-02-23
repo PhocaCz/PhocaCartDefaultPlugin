@@ -2,7 +2,7 @@
 <extension type="plugin" group="pcv" method="upgrade" version="4.0">
 	<name>plg_pcv_default</name>
 	<author>Jan Pavelka (www.phoca.cz)</author>
-	<creationDate>30/11/2021</creationDate>
+	<creationDate>21/02/2022</creationDate>
 	<authorEmail></authorEmail>
 	<authorUrl>https://www.phoca.cz</authorUrl>
 	<copyright>Jan Pavelka</copyright>
@@ -14,7 +14,6 @@
 	<files>
 		<folder>helpers</folder>
 		<filename plugin="default">index.html</filename>
-		<filename plugin="default">manifest.xml</filename>
 		<filename plugin="default">default.php</filename>
 	</files>
 
