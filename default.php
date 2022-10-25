@@ -117,7 +117,7 @@ class plgPCVDefault extends CMSPlugin
    *
    * @since 4.1.0
    */
-  public function onPCVonCategoryBeforePginationTop(string $context, array &$items, Registry &$params): string
+  public function onPCVonCategoryBeforePaginationTop(string $context, array &$items, Registry &$params): string
   {
     return $this->renderModules($this->params->get('category_before_pagination_top'));
   }
