@@ -106,6 +106,22 @@ class plgPCVDefault extends CMSPlugin
     return $this->renderModules($this->params->get('category_before_header'));
 	}
 
+  /**
+   * In Category view, displayed above top pagination
+   *
+   * @param   string    $context
+   * @param   array     $items
+   * @param   Registry  $params
+   *
+   * @return string
+   *
+   * @since 4.1.0
+   */
+  public function onPCVonCategoryBeforePginationTop(string $context, array &$items, Registry &$params): string
+  {
+    return $this->renderModules($this->params->get('category_before_pagination_top'));
+  }
+
 	/**
 	 * In Category view, displayed after add to cart of single item
 	 *
@@ -152,6 +168,22 @@ class plgPCVDefault extends CMSPlugin
 	{
     return $this->renderModules($this->params->get('items_before_header'));
 	}
+
+  /**
+   * In Items view, displayed above top pagination
+   *
+   * @param   string    $context
+   * @param   array     $items
+   * @param   Registry  $params
+   *
+   * @return string
+   *
+   * @since 4.1.0
+   */
+  public function onPCVonItemsBeforePaginationTop(string $context, array &$items, Registry &$params): string
+  {
+    return $this->renderModules($this->params->get('items_before_pagination_top'));
+  }
 
 	/**
 	 * In Items view, displayed after add to cart of single item

@@ -34,8 +34,10 @@
 			<fieldset name="modules" label="PLG_PCV_DEFAULT_FIELDSET_MODULES" description="PLG_PCV_DEFAULT_FIELDSET_MODULES_DESC">
 				<field name="categories_before_header" type="text" label="PLG_PCV_DEFAULT_FIELD_MODULES_CATEGORIES_BEFORE_HEADER" description="PLG_PCV_DEFAULT_FIELD_MODULES_CATEGORIES_BEFORE_HEADER_DESC" />
 				<field name="category_before_header" type="text" label="PLG_PCV_DEFAULT_FIELD_MODULES_CATEGORY_BEFORE_HEADER" description="PLG_PCV_DEFAULT_FIELD_MODULES_CATEGORY_BEFORE_HEADER_DESC" />
+				<field name="category_before_pagination_top" type="text" label="PLG_PCV_DEFAULT_FIELD_MODULES_CATEGORY_BEFORE_PAGINATION_TOP" description="PLG_PCV_DEFAULT_FIELD_MODULES_CATEGORY_BEFORE_PAGINATION_TOP_DESC" />
 				<field name="category_item_after_add_to_cart" type="text" label="PLG_PCV_DEFAULT_FIELD_MODULES_CATEGORY_ITEM_AFTER_ADD_TO_CART" description="PLG_PCV_DEFAULT_FIELD_MODULES_CATEGORY_ITEM_AFTER_ADD_TO_CART_DESC" />
 				<field name="items_before_header" type="text" label="PLG_PCV_DEFAULT_FIELD_MODULES_ITEMS_BEFORE_HEADER" description="PLG_PCV_DEFAULT_FIELD_MODULES_ITEMS_BEFORE_HEADER_DESC" />
+				<field name="items_before_pagination_top" type="text" label="PLG_PCV_DEFAULT_FIELD_MODULES_ITEMS_BEFORE_PAGINATION_TOP" description="PLG_PCV_DEFAULT_FIELD_MODULES_ITEMS_BEFORE_PAGINATION_TOP_DESC" />
 				<field name="items_item_after_add_to_cart" type="text" label="PLG_PCV_DEFAULT_FIELD_MODULES_ITEMS_ITEM_AFTER_ADD_TO_CART" description="PLG_PCV_DEFAULT_FIELD_MODULES_ITEMS_ITEM_AFTER_ADD_TO_CART_DESC" />
 				<field name="item_before_header" type="text" label="PLG_PCV_DEFAULT_FIELD_MODULES_ITEM_BEFORE_HEADER" description="PLG_PCV_DEFAULT_FIELD_MODULES_ITEM_BEFORE_HEADER_DESC" />
 				<field name="item_after_add_to_cart" type="text" label="PLG_PCV_DEFAULT_FIELD_MODULES_ITEM_AFTER_ADD_TO_CART" description="PLG_PCV_DEFAULT_FIELD_MODULES_ITEM_AFTER_ADD_TO_CART_DESC" />
