@@ -28,18 +28,42 @@
 			<language tag="en-GB">language/en-GB/en-GB.plg_pcv_default.sys.ini</language>
 		</languages>
 	</administration>
-	<form>
-	<fields name="params" addfieldpath="/administrator/components/com_phocacart/models/fields">
-	<fieldset name="shipping" addpath="/administrator/components/com_phocacart/models/fields" group="pcv">
 
-	
+	<config>
+		<fields name="params">
+			<fieldset name="modules" label="PLG_PCV_DEFAULT_FIELDSET_MODULES" description="PLG_PCV_DEFAULT_FIELDSET_MODULES_DESC">
+				<field name="categories_before_header" type="text" label="PLG_PCV_DEFAULT_FIELD_MODULES_CATEGORIES_BEFORE_HEADER" description="PLG_PCV_DEFAULT_FIELD_MODULES_CATEGORIES_BEFORE_HEADER_DESC" />
+				<field name="category_before_header" type="text" label="PLG_PCV_DEFAULT_FIELD_MODULES_CATEGORY_BEFORE_HEADER" description="PLG_PCV_DEFAULT_FIELD_MODULES_CATEGORY_BEFORE_HEADER_DESC" />
+				<field name="category_before_pagination_top" type="text" label="PLG_PCV_DEFAULT_FIELD_MODULES_CATEGORY_BEFORE_PAGINATION_TOP" description="PLG_PCV_DEFAULT_FIELD_MODULES_CATEGORY_BEFORE_PAGINATION_TOP_DESC" />
+				<field name="category_item_after_add_to_cart" type="text" label="PLG_PCV_DEFAULT_FIELD_MODULES_CATEGORY_ITEM_AFTER_ADD_TO_CART" description="PLG_PCV_DEFAULT_FIELD_MODULES_CATEGORY_ITEM_AFTER_ADD_TO_CART_DESC" />
+				<field name="items_before_header" type="text" label="PLG_PCV_DEFAULT_FIELD_MODULES_ITEMS_BEFORE_HEADER" description="PLG_PCV_DEFAULT_FIELD_MODULES_ITEMS_BEFORE_HEADER_DESC" />
+				<field name="items_before_pagination_top" type="text" label="PLG_PCV_DEFAULT_FIELD_MODULES_ITEMS_BEFORE_PAGINATION_TOP" description="PLG_PCV_DEFAULT_FIELD_MODULES_ITEMS_BEFORE_PAGINATION_TOP_DESC" />
+				<field name="items_item_after_add_to_cart" type="text" label="PLG_PCV_DEFAULT_FIELD_MODULES_ITEMS_ITEM_AFTER_ADD_TO_CART" description="PLG_PCV_DEFAULT_FIELD_MODULES_ITEMS_ITEM_AFTER_ADD_TO_CART_DESC" />
+				<field name="item_before_header" type="text" label="PLG_PCV_DEFAULT_FIELD_MODULES_ITEM_BEFORE_HEADER" description="PLG_PCV_DEFAULT_FIELD_MODULES_ITEM_BEFORE_HEADER_DESC" />
+				<field name="item_after_add_to_cart" type="text" label="PLG_PCV_DEFAULT_FIELD_MODULES_ITEM_AFTER_ADD_TO_CART" description="PLG_PCV_DEFAULT_FIELD_MODULES_ITEM_AFTER_ADD_TO_CART_DESC" />
+				<field name="item_before_end_price_panel" type="text" label="PLG_PCV_DEFAULT_FIELD_MODULES_ITEM_BEFORE_END_PRICE_PANEL" description="PLG_PCV_DEFAULT_FIELD_MODULES_ITEM_BEFORE_END_PRICE_PANEL_DESC" />
+				<field name="item_after_tabs" type="text" label="PLG_PCV_DEFAULT_FIELD_MODULES_ITEM_AFTER_TABS" description="PLG_PCV_DEFAULT_FIELD_MODULES_ITEM_AFTER_TABS_DESC" />
+				<field name="checkout_after_cart" type="text" label="PLG_PCV_DEFAULT_FIELD_MODULES_CHECKOUT_AFTER_CART" description="PLG_PCV_DEFAULT_FIELD_MODULES_CHECKOUT_AFTER_CART_DESC" />
+				<field name="checkout_after_login" type="text" label="PLG_PCV_DEFAULT_FIELD_MODULES_CHECKOUT_AFTER_LOGIN" description="PLG_PCV_DEFAULT_FIELD_MODULES_CHECKOUT_AFTER_LOGIN_DESC" />
+				<field name="checkout_after_address" type="text" label="PLG_PCV_DEFAULT_FIELD_MODULES_CHECKOUT_AFTER_ADDRESS" description="PLG_PCV_DEFAULT_FIELD_MODULES_CHECKOUT_AFTER_ADDRESS_DESC" />
+				<field name="checkout_after_shipping" type="text" label="PLG_PCV_DEFAULT_FIELD_MODULES_CHECKOUT_AFTER_SHIPPING" description="PLG_PCV_DEFAULT_FIELD_MODULES_CHECKOUT_AFTER_SHIPPING_DESC" />
+				<field name="checkout_after_payment" type="text" label="PLG_PCV_DEFAULT_FIELD_MODULES_CHECKOUT_AFTER_PAYMENT" description="PLG_PCV_DEFAULT_FIELD_MODULES_CHECKOUT_AFTER_PAYMENT_DESC" />
+				<field name="checkout_after_confirm" type="text" label="PLG_PCV_DEFAULT_FIELD_MODULES_CHECKOUT_AFTER_CONFIRM" description="PLG_PCV_DEFAULT_FIELD_MODULES_CHECKOUT_AFTER_CONFIRM_DESC" />
+				<field name="info_view_display_content" type="text" label="PLG_PCV_DEFAULT_FIELD_MODULES_INFO_VIEW_DISPLAY_CONTENT" description="PLG_PCV_DEFAULT_FIELD_MODULES_INFO_VIEW_DISPLAY_CONTENT_DESC" />
+				<field name="popup_add_to_cart_after_header" type="text" label="PLG_PCV_DEFAULT_FIELD_MODULES_POPUP_ADD_TO_CART_AFTER_HEADER" description="PLG_PCV_DEFAULT_FIELD_MODULES_POPUP_ADD_TO_CART_AFTER_HEADER_DESC" />
+			</fieldset>
 
-	
-	</fieldset>
-	</fields>
-
-</form>
-	
+			<fieldset name="tabs" label="PLG_PCV_DEFAULT_FIELDSET_TABS" description="PLG_PCV_DEFAULT_FIELDSET_TABS_DESC">
+				<field name="item_tabs" type="subform" multiple="true" layout="joomla.form.field.subform.repeatable-table" label="PLG_PCV_DEFAULT_FIELD_ITEM_TABS" description="PLG_PCV_DEFAULT_FIELD_ITEM_TABS_DESC">
+					<form>
+						<field name="id" type="text" required="true" label="PLG_PCV_DEFAULT_FIELD_TABS_ID"/>
+						<field name="title" type="text" required="true" label="PLG_PCV_DEFAULT_FIELD_TABS_TITLE"/>
+						<field name="position" type="text" required="true" label="PLG_PCV_DEFAULT_FIELD_TABS_POSITION"/>
+					</form>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
 
 	<updateservers>
 		<server type="extension" name="PLG_PCV_DEFAULT" priority="1"><![CDATA[https://raw.githubusercontent.com/PhocaCz/PhocaCartDefaultPlugin/master/manifest.xml]]></server>
