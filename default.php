@@ -9,6 +9,7 @@
 
 defined('_JEXEC') or die;
 use Joomla\CMS\Plugin\CMSPlugin;
+use Joomla\Event\Event;
 
 jimport( 'joomla.plugin.plugin' );
 jimport( 'joomla.filesystem.file');
@@ -52,7 +53,7 @@ class plgPCVDefault extends CMSPlugin
 	public function onPCVonItemInsideTabPanel($context, &$item, &$params) {
 
 		$tab 			= array();
-		
+
 		// Example
 		/*$tab['title']	= JText::_('Title');
 		$tab['alias']	= 'title';
@@ -86,5 +87,13 @@ class plgPCVDefault extends CMSPlugin
 
 	} */
 
+	public function onPCVonInfoViewDisplayContent($context, &$infoData, &$infoAction, $eventData) {
+		/*
+		$output = array();
+		$output['content'] = '';
+
+		return $output;
+		*/
+	}
 }
 ?>

@@ -25,18 +25,19 @@
 		<element>default</element>
 		<folder>pcv</folder>
 		<type>plugin</type>
-		<version>4.0.0</version>
-		<infourl title="Phoca Cart View Default Plugin 4.0.0">https://www.phoca.cz/</infourl>
+		<version>4.0.7</version>
+		<infourl title="Phoca Cart View Default Plugin 4.0.7">https://www.phoca.cz/</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://github.com/PhocaCz/PhocaCartDefaultPlugin/releases/download/4.0.0/plg_pcv_default_v4.0.0.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://github.com/PhocaCz/PhocaCartDefaultPlugin/releases/download/4.0.7/plg_pcv_default_v4.0.7.zip</downloadurl>
 		</downloads>
+		<sha512>89e574ccb760e1b813fdebb0d166ff3fdd95c99aec3a52ee392f3bb6f935d22401303016cb80718a4741543bbe9c630d0137ef27e60b1036a05fb88fb39fa5af</sha512>
 		<tags>
 			<tag>stable</tag>
 		</tags>
 		<maintainer><![CDATA[ Phoca.cz ]]></maintainer>
 		<maintainerurl>https://www.phoca.cz/</maintainerurl>
 		<section>Updates</section>
-		<targetplatform name="joomla" version="4.[0]"/>
+		<targetplatform name="joomla" version="4.[012]"/>
 		<client>site</client>
 	</update>
 </updates>
