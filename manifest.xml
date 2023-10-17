@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <updates>
 	<update>
 		<name><![CDATA[ Phoca Cart View Default Plugin ]]></name>
@@ -25,19 +26,20 @@
 		<element>default</element>
 		<folder>pcv</folder>
 		<type>plugin</type>
-		<version>4.0.7</version>
-		<infourl title="Phoca Cart View Default Plugin 4.0.7">https://www.phoca.cz/</infourl>
+		<version>4.0.9</version>
+		<infourl title="Phoca Cart View Default Plugin 4.0.9">https://www.phoca.cz/</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://github.com/PhocaCz/PhocaCartDefaultPlugin/releases/download/4.0.7/plg_pcv_default_v4.0.7.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://github.com/PhocaCz/PhocaCartDefaultPlugin/releases/download/4.0.9/plg_pcv_default_v4.0.9.zip</downloadurl>
 		</downloads>
-		<sha512>8185c136f34fc36438c8a1701e7fe3f99673d5654738cfaf960a68045c333cd0fbad7e64f1c5fd1c33c5f93eec666ee0cb7077b83d1082a0e224b4f6e131ddd5</sha512>
+		<sha512>ebd7403d3e077da6f8b1e1bc33f7630790af8da9c0420ac21acfb9c5354bc1e2756ee11c308e7b4a8719b0ae79ba2bbe29b6fb0a2d79dde3ecda515d584e75a6</sha512>
 		<tags>
 			<tag>stable</tag>
 		</tags>
 		<maintainer><![CDATA[ Phoca.cz ]]></maintainer>
 		<maintainerurl>https://www.phoca.cz/</maintainerurl>
 		<section>Updates</section>
-		<targetplatform name="joomla" version="4.[012]"/>
+		<targetplatform name="joomla" version="4\.*"/>
 		<client>site</client>
 	</update>
+
 </updates>

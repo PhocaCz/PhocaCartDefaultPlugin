@@ -55,7 +55,7 @@ class plgPCVDefault extends CMSPlugin
 		$tab 			= array();
 
 		// Example
-		/*$tab['title']	= JText::_('Title');
+		/*$tab['title']	= Text::_('Title');
 		$tab['alias']	= 'title';
 		if (isset($item[0]->features)) {
 			$tab['content']	= JHTML::_('content.prepare', $item[0]->features);
