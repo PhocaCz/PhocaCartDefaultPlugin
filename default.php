@@ -20,6 +20,8 @@ JLoader::registerPrefix('Phocacart', JPATH_ADMINISTRATOR . '/components/com_phoc
 
 class plgPCVDefault extends CMSPlugin
 {
+	protected $autoloadLanguage = true;
+
 	function __construct(& $subject, $config) {
 		parent :: __construct($subject, $config);
 		$this->loadLanguage();
